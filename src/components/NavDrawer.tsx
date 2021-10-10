@@ -24,6 +24,7 @@ import {
   ExitToApp as LogoutIcon,
   Notifications as NotificationsIcon,
   AccountBalance as AccountBalanceIcon,
+  AttachMoney as AttachMoneyIcon,
 } from "@material-ui/icons";
 
 import { formatAmount } from "../utils/transactionUtils";
@@ -87,6 +88,19 @@ export const mainListItems = (
         <NotificationsIcon />
       </ListItemIcon>
       <ListItemText primary="Notifications" />
+    </ListItem>
+    <ListItem
+      button
+      // @ts-ignore
+      onClick={() => showTemporaryDrawer && toggleDrawer()}
+      component={RouterLink}
+      to="/transaction/new"
+      data-test="sidenav-newTransaction"
+    >
+      <ListItemIcon>
+        <AttachMoneyIcon />
+      </ListItemIcon>
+      <ListItemText primary="New" />
     </ListItem>
   </div>
 );

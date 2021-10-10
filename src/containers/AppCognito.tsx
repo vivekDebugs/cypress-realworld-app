@@ -14,7 +14,8 @@ import { AmplifyAuthenticator, AmplifySignUp, AmplifySignIn } from "@aws-amplify
 import { AuthState, onAuthUIStateChange } from "@aws-amplify/ui-components";
 
 // @ts-ignore
-import awsConfig from "../aws-exports";
+// import awsConfig from "../aws-exports";
+import awsConfig from "../MY_UTILS/mock-aws-exports";
 
 Amplify.configure(awsConfig);
 
