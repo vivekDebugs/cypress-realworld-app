@@ -11,7 +11,7 @@
       "phoneNumber": "625-316-9882",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/t45AiwidW.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 169137,
+      "balance": 167637,
       "createdAt": "2019-08-27T23:47:05.637Z",
       "modifiedAt": "2020-05-21T11:02:22.857Z"
     },
@@ -26,7 +26,7 @@
       "phoneNumber": "537-041-4355",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/qywYp6hS0U.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 100805,
+      "balance": 102305,
       "createdAt": "2019-09-09T13:48:45.489Z",
       "modifiedAt": "2020-05-21T02:34:01.483Z"
     },
@@ -9857,16 +9857,16 @@
       "modifiedAt": "2020-05-21T04:58:44.494Z"
     },
     {
-      "id": "w64_O2z4o",
-      "uuid": "ebd3f8e8-9b8b-4c73-9f50-b25f67b46e70",
-      "amount": 1000,
-      "description": "Candies",
-      "receiverId": "t45AiwidW",
-      "senderId": "qywYp6hS0U",
-      "privacyLevel": "private",
+      "id": "tD0WUlkUd",
+      "uuid": "7ff7aed4-801c-4a1d-938d-3b0dd2792c9c",
+      "amount": 500,
+      "description": "Hummus",
+      "receiverId": "qywYp6hS0U",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
       "status": "complete",
-      "createdAt": "2021-10-18T08:20:24.933Z",
-      "modifiedAt": "2021-10-18T08:20:24.933Z"
+      "createdAt": "2021-10-21T07:09:01.627Z",
+      "modifiedAt": "2021-10-21T07:09:01.627Z"
     }
   ],
   "likes": [
@@ -10445,14 +10445,14 @@
       "modifiedAt": "2020-05-21T21:00:50.192Z"
     },
     {
-      "id": "I81kTLOj0",
-      "uuid": "914977b6-91c1-4bab-bc16-108017c8136f",
-      "userId": "t45AiwidW",
-      "transactionId": "w64_O2z4o",
+      "id": "GfaWdWv2fh",
+      "uuid": "d551180f-6e3c-47fd-987c-c278e98b9da9",
+      "userId": "qywYp6hS0U",
+      "transactionId": "tD0WUlkUd",
       "status": "received",
       "isRead": false,
-      "createdAt": "2021-10-18T08:20:25.066Z",
-      "modifiedAt": "2021-10-18T08:20:25.066Z"
+      "createdAt": "2021-10-21T07:09:01.650Z",
+      "modifiedAt": "2021-10-21T07:09:01.650Z"
     }
   ],
   "banktransfers": [
